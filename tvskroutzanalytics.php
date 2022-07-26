@@ -1,7 +1,12 @@
 <?php
 
-if (!defined('_PS_VERSION_'))
-    exit;
+/**
+ * Skroutz Analytics module ”Satyros”
+ *
+ * @author    tivuno.com
+ * @copyright 2018 - 2022 © tivuno.com
+ * @license   Basic license | You are allowed to use the software on one productive environment
+ */
 
 class Tvskroutzanalytics extends Module
 {
@@ -11,7 +16,7 @@ class Tvskroutzanalytics extends Module
     {
         $this->name = 'tvskroutzanalytics';
         $this->tab = 'front_office_features';
-        $this->version = '1.0';
+        $this->version = '1.0.1';
         $this->author = 'tivuno.com';
         $this->need_instance = 0;
 
